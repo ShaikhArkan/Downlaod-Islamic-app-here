@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download the Islamic App</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #00FF00;
+            animation: fadeIn 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px yellow;
+            }
+            100% {
+                text-shadow: 0 0 20px yellow, 0 0 30px orange, 0 0 40px yellow;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0.3;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        a {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 1.2rem;
+            background-color: yellow;
+            color: black;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: orange;
+        }
+
+        .report {
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+
+        .report a {
+            color: #00FF00;
+            text-decoration: none;
+        }
+
+        .report a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="mainContent">
+        <h1>Download the Islamic App Here</h1>
+        <p>Powered by Shaikh Arkan</p>
+        <a href="https://drive.google.com/file/d/1nTyRs9BR-Q0Fp0q38iW1NP1CH2XSSnnb/view?usp=drive_link" target="_blank">
+            Download Now
+        </a>
+        <div class="report">
+            <p>If any problem, report on my ID:</p>
+            <a href="https://www.instagram.com/sk__arkan.007?igsh=enNoNHB0cHZpOHR0" target="_blank">
+                Instagram: @sk__arkan.007
+            </a>
+            <p>If not working, mail me:</p>
+            <a href="mailto:shaikharkan2010@gmail.com">
+                Email: shaikharkan2010@gmail.com
+            </a>
+        </div>
+    </div>
+</body>
+</html>
